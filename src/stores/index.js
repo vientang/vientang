@@ -5,35 +5,33 @@ import { userReducer } from '../reducers'
 var store
 export default {
 
-	configure: (initialState) => { // initialState can be null
-		
-		const reducers = combineReducers({ // insert reducers here
-			user: userReducer
-		})
+  configure: (initialState) => { // initialState can be null
+    const reducers = combineReducers({ // insert reducers here
+      user: userReducer
+    })
 
-		if (initialState){
-			store = createStore(
+    if (initialState) {
+      store = createStore(
 			    reducers,
 			    initialState,
 			    applyMiddleware(thunk)
 			)
 
-			return store
-		}
+      return store
+    }
 
-		store = createStore(
+    store = createStore(
 		    reducers,
 		    applyMiddleware(thunk)
 		)
 
-		return store
-	},
+    return store
+  },
 
-	currentStore: () => {
-		return store
-	}
+  currentStore: () => {
+    return store
+  }
 }
-
 
 // export default () => {
 // 	let store = null
@@ -72,5 +70,3 @@ export default {
 
 // 	return instance
 // }
-
-

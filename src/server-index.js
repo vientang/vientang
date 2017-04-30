@@ -6,7 +6,6 @@ class App extends Component {
 			<div>
 				React Entry Point
 			</div>
-
 		)
 	}
 }

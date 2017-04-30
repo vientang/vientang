@@ -7,13 +7,13 @@ import { Elements } from './components/presentation'
  */
 
 class Example extends Component {
-    render(){
-        return (
-        	<div>
-                <Elements />
-            </div>
-        )
-    }
+  render(){
+    return (
+      <div>
+        <Elements />
+      </div>
+    )
+  }
 }
 
 ReactDOM.render(<Example />, document.getElementById('root'))

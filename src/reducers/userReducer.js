@@ -1,25 +1,24 @@
 import constants from '../constants'
 
 var initialState = {
-	all: null
+  all: null
 }
 
 export default (state = initialState, action) => {
-	let newState = Object.assign({}, state)
+  let newState = Object.assign({}, state)
 
-	switch (action.type) {
+  switch (action.type) {
+    case constants.USERS_RECEIVED:
+      newState['all'] = action.data
+      return newState
 
-		case constants.USERS_RECEIVED:
-			newState['all'] = action.data
-			return newState
+    case constants.USER_CREATED:
+      let array = (newState.all) ? Object.assign([], newState.all) : []
+      array.unshift(action.data)
+      newState['all'] = array
+      return newState
 
-		case constants.USER_CREATED:
-			let array = (newState.all) ? Object.assign([], newState.all) : []
-			array.unshift(action.data)
-			newState['all'] = array
-			return newState
-
-		default:
-			return state
-	}
+    default:
+      return state
+  }
 }
