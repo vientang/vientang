@@ -5,8 +5,8 @@ export default (props) => {
 	return (
 		<section>
 			<span className={props.icon}></span>
-			<h3>Lorem ipsum amet</h3>
-			<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+			<h3>Front End</h3>
+			<p>React, Redux, Sass, vanilla JS, HTML5, CSS3</p>
 		</section>
 	)
 

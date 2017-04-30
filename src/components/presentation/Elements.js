@@ -13,9 +13,8 @@ export default (props) => {
 			<div id="wrapper">
 				<section id="intro" className="wrapper style1 fullscreen fade-up">
 					<div className="inner">
-						<h1>Hyperspace</h1>
-						<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+						<h1>Hey, I'm Vien</h1>
+						<p>A jack of all trades programmer, pals with CSS, and explorer of the internet.</p>
 						<ul className="actions">
 							<li><a href="#one" className="button scrolly">Learn more</a></li>
 						</ul>
@@ -23,25 +22,21 @@ export default (props) => {
 				</section>
 
 				<section id="one" className="wrapper style2 spotlights">
-					<Post title="Sed ipsum dolor" image="images/pic01.jpg" text="Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus." />
-					<Post title="Feugiat consequat" image="images/pic02.jpg" text="Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis." />
-					<Post title="Ultricies aliquam" image="images/pic03.jpg" text="Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus." />
+					<Post title="Campfire Stories" image="images/pic01.jpg" text="Campfire Stories is a showcase of stories from Free Code Camp members from around the world who are learning how to program (think Humans of New York)." />
+					<Post title="Westeros Recipes" image="images/pic02.jpg" text="Recipe review app that enables users to rate their favorite recipes." />
+					<Post title="VISE from AILabs" image="images/pic03.jpg" text="A React based admin dashboard that visualizes Ai based technology built to give Financial Advisors access to cutting edge research." />
 				</section>
 
 				<section id="two" className="wrapper style3 fade-up">
 					<div className="inner">
-						<h2>What we do</h2>
-						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+						<h2>About me</h2>
+						<p>Front-End Engineer, able to work across the stack from designing UI components to database querying, in building clean and scalable code.</p>
 						<div className="features">
 							<Feature icon="icon major fa-code" />
-							<Feature icon="icon major fa-lock" />
-							<Feature icon="icon major fa-cog" />
-							<Feature icon="icon major fa-desktop" />
-							<Feature icon="icon major fa-chain" />
-							<Feature icon="icon major fa-diamond" />
+							<Feature icon="icon major fa-code" />
 						</div>
 						<ul className="actions">
-							<li><a href="#" className="button">Learn more</a></li>
+							<li><a href="#" className="button">Back to the top</a></li>
 						</ul>
 					</div>
 				</section>
@@ -49,7 +44,6 @@ export default (props) => {
 				<section id="three" className="wrapper style1 fade-up">
 					<div className="inner">
 						<h2>Get in touch</h2>
-						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 						<div className="split style1">
 							<section>
 								<Form />
