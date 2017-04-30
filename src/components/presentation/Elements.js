@@ -22,18 +22,33 @@ export default (props) => {
 				</section>
 
 				<section id="one" className="wrapper style2 spotlights">
-					<Post title="Campfire Stories" image="images/pic01.jpg" text="Campfire Stories is a showcase of stories from Free Code Camp members from around the world who are learning how to program (think Humans of New York)." />
-					<Post title="Westeros Recipes" image="images/pic02.jpg" text="Recipe review app that enables users to rate their favorite recipes." />
-					<Post title="VISE from AILabs" image="images/pic03.jpg" text="A React based admin dashboard that visualizes Ai based technology built to give Financial Advisors access to cutting edge research." />
+					<Post 
+						title="Campfire Stories" 
+						image="images/campfire.png" 
+						text="Campfire Stories is a showcase of stories from Free Code Camp members from around the world who are learning how to program (think Humans of New York)."
+						github="https://github.com/mkarabashev/campfire-stories"
+						live="http://www.campfire-stories.xyz/" />
+					<Post 
+						title="Baseball Podcast" 
+						image="images/baseballpodcast.png" 
+						text="Mobile web podcast that streams podcasts from iTunes API."
+						github="https://github.com/vientang/baseball-podcasts"
+						live="https://baseball-podcasts.herokuapp.com/" />
+					<Post 
+						title="VISE from AILabs" 
+						image="images/vise.png" 
+						text="A React based admin dashboard that visualizes Ai based technology built to give Financial Advisors access to cutting edge research."
+						github="#"
+						live="http://www.ailabs.co/" />
 				</section>
 
 				<section id="two" className="wrapper style3 fade-up">
 					<div className="inner">
 						<h2>About me</h2>
-						<p>Front-End Engineer, able to work across the stack from designing UI components to database querying, in building clean and scalable code.</p>
+						<p>I'm a software engineer, able to work across the stack from designing UI components to database querying, in building clean and scalable code.</p>
 						<div className="features">
-							<Feature icon="icon major fa-code" />
-							<Feature icon="icon major fa-code" />
+							<Feature icon="icon major fa-code" stack='Front End' />
+							<Feature icon="icon major fa-code" stack='Other' />
 						</div>
 						<ul className="actions">
 							<li><a href="#" className="button">Back to the top</a></li>
@@ -41,7 +56,7 @@ export default (props) => {
 					</div>
 				</section>
 
-				<section id="three" className="wrapper style1 fade-up">
+				<section id="three" className="wrapper style4 fade-up">
 					<div className="inner">
 						<h2>Get in touch</h2>
 						<div className="split style1">

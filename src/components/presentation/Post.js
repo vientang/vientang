@@ -9,7 +9,8 @@ export default (props) => {
 					<h2>{props.title}</h2>
 					<p>{props.text}</p>
 					<ul className="actions">
-						<li><a href="#" className="button">Learn more</a></li>
+						<li><a href={props.github} className="button">Code</a></li>
+						<li><a href={props.live} className="button">Live</a></li>
 					</ul>
 				</div>
 			</div>

@@ -27,7 +27,7 @@ gulp.task('copy-images', function(){
     return gulp.src(
             ['./images/**']
         )
-        .pipe(gulp.dest('./dist/images/'))
+        .pipe(gulp.dest('./dist/css/images/'))
 })
 
 gulp.task('build', function(){
